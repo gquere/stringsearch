@@ -12,7 +12,7 @@ int za(const char *text, const char *pattern)
 	int i, k;
 	char *s;
 	int len;
-	int R, L, n, p;
+	int R = 0, L, n, p;
 
 	psize = strlen(pattern);
 	tsize = strlen(text);
